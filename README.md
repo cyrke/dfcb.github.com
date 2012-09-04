@@ -1,1 +1,2 @@
-Public code repositories from the Dev Group at Draftfcb Chicago
+Public code repositories from the Dev Group at Draftfcb Chicago.
+If you want to work on big digital ideas for big brands, get in touch with us at [devrecruiting@draftfcb.com](mailto:devrecruiting@draftfcb.com).
