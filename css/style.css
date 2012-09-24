@@ -58,24 +58,28 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
     PRIMARY STYLES
     ========================================================================== */
 
-body { background:#eee; line-height: 1.4; font-size:24px; font-family:DINWeb-Bold; color: #222;}
+body { background:#fff; line-height: 1.4; font-size:18px; font-family:DINWeb-Bold; color: #222;}
 
 a, a:visited { color:#333; }
 a:hover { color:#000; }
 a:focus, a:hover, a:active { outline:0; }
 
-.wrapper { padding:20px 50px 100px; width:900px; margin:0 auto; background:#fff; border-left:solid 4px #ddd; border-right:solid 4px #ddd;}
+.wrapper { width:800px; margin:120px auto 20px; padding: 0;  }
 
-header { margin-bottom:40px; padding-bottom: 20px; border-bottom:solid 8px #eee;}
-h1 {font-size:4em; margin: 0 0 10px;font-weight:normal; }
-h1 small { font-size:.5em; line-height:1; }
-h2 { font-size:2em; margin: 0 0 10px; font-weight:normal; }
-h3 { font-size:1.5em; margin: 0 0 10px; font-weight:normal; }
+header { margin-bottom: 40px; }
+
+header[role="banner"] { border-bottom:solid 8px #eee; margin-bottom: 20px; background: #fff; position: fixed; top: 0;}
+
+section header h1 { margin-left: -5px;  }
+h1 {font-size:3.7em; margin: 0; font-weight:normal; text-transform: uppercase; }
+h2 { font-size:1.8em; margin: 0; font-weight:normal; }
+h3 { font-size:1.2em; margin: 0; font-weight:normal; }
 p { font-family:DINWeb; margin: 0 0 10px;}
+small {font-size: .8em; font-style: italic; }
 blockquote { border:solid 1px #ddd; padding:20px; border-radius:10px; margin:20px; }
 
-section { margin: 10px 0;  }
-article { margin: 20px 0; padding: 0 0 40px; border-bottom:solid 8px #eee; }
+section { border-bottom:solid 8px #eee; }
+article { padding-bottom: 40px;  }
 
 a { font-family:DINWeb-Bold; }
 .repo-link {display: block;}
