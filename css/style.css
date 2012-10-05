@@ -72,7 +72,7 @@ header[role="banner"] { border-bottom:solid 8px #eee; margin-bottom: 20px; backg
 section { margin-bottom: 20px; }
 section header h1 { margin-left: -5px;  }
 h1 {font-size:3.7em; margin: 0; font-weight:normal; text-transform: uppercase; }
-h2 { font-size:1.8em; margin: 0; font-weight:normal; }
+h2 { font-size:1.8em; margin: 0; font-weight:normal; text-transform: uppercase; }
 h3 { font-size:1.2em; margin: 0; font-weight:normal; }
 p { font-family:DINWeb; margin: 0;}
 small {font-size: .8em; font-style: italic; }
