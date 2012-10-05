@@ -64,13 +64,16 @@ a, a:visited { color:#333; }
 a:hover { color:#000; }
 a:focus, a:hover, a:active { outline:0; }
 
-.wrapper { width:800px; margin:120px auto 20px; padding: 0;  }
+.wrapper { width:800px; margin:130px auto 20px; padding: 0;  }
 
-header { margin-bottom: 40px; }
+header h1 { margin: 0 0 -20px; }
+.logo-devgroup { opacity: .25; }
+header[role="banner"] { border-bottom:solid 8px #eee; margin-bottom: 20px; background: #fff; position: fixed; top: 0; z-index: 9999; }
 
-header[role="banner"] { border-bottom:solid 8px #eee; margin-bottom: 20px; background: #fff; position: fixed; top: 0;}
 section { margin-bottom: 20px; }
+section header { margin-bottom: 40px; }
 section header h1 { margin-left: -5px;  }
+
 h1 {font-size:3.7em; margin: 0; font-weight:normal; text-transform: uppercase; }
 h2 { font-size:1.8em; margin: 0; font-weight:normal; text-transform: uppercase; }
 h3 { font-size:1.2em; margin: 0; font-weight:normal; }
@@ -80,6 +83,7 @@ blockquote { border:solid 1px #ddd; padding:20px; border-radius:10px; margin:20p
 
 section { border-bottom:solid 8px #eee; }
 article { padding-bottom: 40px;  }
+.team article { width: 50%; float: left; height: 100px; }
 
 a { font-family:DINWeb-Bold; }
 .repo-link {display: block; font-style: italic; font-family: DINWeb-Light; margin: 0; font-size: .9em; }
